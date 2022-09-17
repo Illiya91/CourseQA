@@ -23,7 +23,7 @@ public class AppTest
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://rozetka.com.ua");
-        Thread.sleep(10000);
+        Thread.sleep(9999);
         driver.close();
     }
     }
